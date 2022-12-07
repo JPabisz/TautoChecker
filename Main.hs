@@ -8,6 +8,16 @@
  
 module Main where
 
+    --main :: IO()
+    --main = interact (showResults . map Proposition . readTestCases)
+    
+    --readTestCases :: String -> [(Double,Double,Double,Double)]
+    --readTestCases = pairUp . (map read) . words
+    
+    --showResults ::  [String] -> String
+    --showResults = unlines
+    
+    
     data Proposition =
           Const Bool
         | Var String
